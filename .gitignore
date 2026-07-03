@@ -1,0 +1,27 @@
+# Credentials and Config
+.env
+gmail_credentials.json
+gmail_token.json
+sheets_token.json
+
+# Databases and CSV lists
+*.db
+*.db-journal
+phone_names.json
+campaign_outflow_log.json
+bounces.txt
+*.csv
+
+# Python environment and cache
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Binaries
+ngrok
+cloudflared
+*.zip
+
+# System files
+.DS_Store
